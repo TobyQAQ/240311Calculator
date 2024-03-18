@@ -105,6 +105,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(100, 25);
             this.txtIn.TabIndex = 7;
+            this.txtIn.TextChanged += new System.EventHandler(this.txtIn_TextChanged);
             // 
             // label4
             // 
@@ -122,6 +123,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(100, 25);
             this.txtFt.TabIndex = 9;
+            this.txtFt.TextChanged += new System.EventHandler(this.txtFt_TextChanged);
             // 
             // label5
             // 
@@ -139,6 +141,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(100, 25);
             this.txtYard.TabIndex = 11;
+            this.txtYard.TextChanged += new System.EventHandler(this.txtYard_TextChanged);
             // 
             // label6
             // 
