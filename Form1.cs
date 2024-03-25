@@ -115,5 +115,15 @@ namespace _240311Calculator
             txtIn.Text = string.Format("{0:0.##########}", douYard * 36);
             txtFt.Text = string.Format("{0:0.##########}", douYard * 3);
         }
+
+        private void btnClean_Click(object sender, EventArgs e)
+        {
+            txtCM.Text = "";
+            txtM.Text = "";
+            txtKM.Text = "";
+            txtIn.Text = "";
+            txtFt.Text = "";
+            txtYard.Text = "";
+        }
     }
 }

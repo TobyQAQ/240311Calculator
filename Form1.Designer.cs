@@ -167,6 +167,7 @@
             this.btnClean.TabIndex = 12;
             this.btnClean.Text = "清除";
             this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // txtEX
             // 
