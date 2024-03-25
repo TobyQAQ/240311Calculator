@@ -62,6 +62,7 @@
             this.txtCM.Size = new System.Drawing.Size(100, 25);
             this.txtCM.TabIndex = 1;
             this.txtCM.TextChanged += new System.EventHandler(this.txtCM_TextChanged);
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
             // 
@@ -70,6 +71,7 @@
             this.txtM.Size = new System.Drawing.Size(100, 25);
             this.txtM.TabIndex = 3;
             this.txtM.TextChanged += new System.EventHandler(this.txtM_TextChanged);
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // label2
             // 
@@ -88,6 +90,7 @@
             this.txtKM.Size = new System.Drawing.Size(100, 25);
             this.txtKM.TabIndex = 5;
             this.txtKM.TextChanged += new System.EventHandler(this.txtKM_TextChanged);
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // label3
             // 
@@ -106,6 +109,7 @@
             this.txtIn.Size = new System.Drawing.Size(100, 25);
             this.txtIn.TabIndex = 7;
             this.txtIn.TextChanged += new System.EventHandler(this.txtIn_TextChanged);
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // label4
             // 
@@ -124,6 +128,7 @@
             this.txtFt.Size = new System.Drawing.Size(100, 25);
             this.txtFt.TabIndex = 9;
             this.txtFt.TextChanged += new System.EventHandler(this.txtFt_TextChanged);
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // label5
             // 
@@ -142,6 +147,7 @@
             this.txtYard.Size = new System.Drawing.Size(100, 25);
             this.txtYard.TabIndex = 11;
             this.txtYard.TextChanged += new System.EventHandler(this.txtYard_TextChanged);
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // label6
             // 
