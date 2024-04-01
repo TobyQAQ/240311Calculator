@@ -31,11 +31,7 @@ namespace _240311Calculator
             strInput = txtM.Text;
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                txtCM.Text = string.Format("{0:0.##########}", douOutput * 100);
-                txtKM.Text = string.Format("{0:0.##########}", douOutput * 0.001);
-                txtIn.Text = string.Format("{0:0.##########}", douOutput * 39.37);
-                txtFt.Text = string.Format("{0:0.##########}", douOutput * 3.28);
-                txtYard.Text = string.Format("{0:0.##########}", douOutput * 1.09);
+                caculateAnswer(1, douOutput * 100);
             }
             else
             {
@@ -49,11 +45,7 @@ namespace _240311Calculator
             strInput = txtKM.Text;
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                txtCM.Text = string.Format("{0:0.##########}", douOutput * 100);
-                txtM.Text = string.Format("{0:0.##########}", douOutput * 1000);
-                txtIn.Text = string.Format("{0:0.##########}", douOutput * 39370.1);
-                txtFt.Text = string.Format("{0:0.##########}", douOutput * 3280.84);
-                txtYard.Text = string.Format("{0:0.##########}", douOutput * 1093.61);
+                caculateAnswer(3, douOutput * 100000);
             }
             else
             {
@@ -67,11 +59,7 @@ namespace _240311Calculator
             strInput = txtIn.Text;
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                txtCM.Text = string.Format("{0:0.##########}", douOutput * 2.54);
-                txtM.Text = string.Format("{0:0.##########}", douOutput * 0.0254);
-                txtKM.Text = string.Format("{0:0.##########}", douOutput * 0.0000254);
-                txtFt.Text = string.Format("{0:0.##########}", douOutput * 0.0833);
-                txtYard.Text = string.Format("{0:0.##########}", douOutput * 0.0278);
+                caculateAnswer(3, douOutput * 2.54);
             }
             else
             {
@@ -85,11 +73,7 @@ namespace _240311Calculator
             strInput = txtFt.Text;
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                txtCM.Text = string.Format("{0:0.##########}", douOutput * 30.48);
-                txtM.Text = string.Format("{0:0.##########}", douOutput * 0.3048);
-                txtKM.Text = string.Format("{0:0.##########}", douOutput * 0.0003048);
-                txtIn.Text = string.Format("{0:0.##########}", douOutput * 12);
-                txtYard.Text = string.Format("{0:0.##########}", douOutput * 0.3333);
+                caculateAnswer(4, douOutput * 30.48);
             }
             else
             {
@@ -103,11 +87,7 @@ namespace _240311Calculator
             strInput = txtYard.Text;
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                txtCM.Text = string.Format("{0:0.##########}", douOutput * 91.44);
-                txtM.Text = string.Format("{0:0.##########}", douOutput * 0.9144);
-                txtKM.Text = string.Format("{0:0.##########}", douOutput * 0.0009144);
-                txtIn.Text = string.Format("{0:0.##########}", douOutput * 36);
-                txtFt.Text = string.Format("{0:0.##########}", douOutput * 3);
+                caculateAnswer(5, douOutput * 91.44);
             }
             else
             {
